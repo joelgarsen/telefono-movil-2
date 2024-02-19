@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Cargador
+comment1.params=tipoDeConector\ corrienteSuministrada
+comment1.target=Cargador(java.lang.String,\ int)
+numComments=2
