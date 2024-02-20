@@ -2,4 +2,14 @@
 comment0.target=Cargador
 comment1.params=tipoDeConector\ corrienteSuministrada
 comment1.target=Cargador(java.lang.String,\ int)
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ getTipoDeConector()
+comment3.params=
+comment3.target=int\ getCorrienteSuministrada()
+comment4.params=newTipoDeConector
+comment4.target=void\ setTipoDeConector(java.lang.String)
+comment5.params=newCorrienteSuministrada
+comment5.target=void\ setCorrienteSuministrada(int)
+comment6.params=
+comment6.target=void\ imprimirDetalles()
+numComments=7
