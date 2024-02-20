@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=movil
+comment1.params=tipoDeConector\ corrienteSuministrada\ almacenamiento\ marca
+comment1.target=movil(java.lang.String,\ int,\ int,\ java.lang.String)
+numComments=2
