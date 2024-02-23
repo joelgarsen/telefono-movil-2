@@ -10,19 +10,19 @@ public class Cargador
     }
     
     public String getTipoDeConector(){
-    	return tipoDeConector;
+        return tipoDeConector;
     }
     
     public int getCorrienteSuministrada() {
-    	return corrienteSuministrada;
+        return corrienteSuministrada;
     }
     
     public void setTipoDeConector(String newTipoDeConector) {
-    	tipoDeConector = newTipoDeConector;
+        tipoDeConector = newTipoDeConector;
     }
     
     public void setCorrienteSuministrada(int newCorrienteSuministrada) {
-    	corrienteSuministrada = newCorrienteSuministrada;
+        corrienteSuministrada = newCorrienteSuministrada;
     }
     
     public void imprimirDetalles(){

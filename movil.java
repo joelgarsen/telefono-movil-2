@@ -8,4 +8,25 @@ public class movil {
         this.almacenamiento = almacenamiento;
         this.marca = marca;
     }
+    
+    public String getMarca(){
+        return marca;
+    }
+    
+    public int getAlmacenamiento() {
+        return almacenamiento;
+    }
+    
+    public void setMarca(String newMarca) {
+        marca = newMarca;
+    }
+    
+    public void setAlmacenamiento(int newAlmacenamiento) {
+        almacenamiento = newAlmacenamiento;
+    }
+    
+    public void imprimirDetalles(){
+           System.out.println("Almacenamiento: " + almacenamiento + " Gb");
+           System.out.println("Marca: " + marca);
+    }
 }
