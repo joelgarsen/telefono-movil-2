@@ -1,3 +1,4 @@
+//Commit 6.1//
 public class movil {
     public Cargador cargador;
     public int almacenamiento;
