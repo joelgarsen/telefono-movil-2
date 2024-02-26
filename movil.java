@@ -4,8 +4,7 @@ public class movil {
     public int almacenamiento;
     public String marca;
     
-    public movil (String tipoDeConector, int corrienteSuministrada, int almacenamiento, String marca){
-        this.cargador = new Cargador(tipoDeConector,corrienteSuministrada);
+    public movil (int corrienteSuministrada, int almacenamiento, String marca){
         this.almacenamiento = almacenamiento;
         this.marca = marca;
     }
@@ -16,6 +15,10 @@ public class movil {
     
     public int getAlmacenamiento() {
         return almacenamiento;
+    }
+    
+    public Cargador getCargador() {
+        return cargador;
     }
     
     public void setMarca(String newMarca) {
@@ -29,5 +32,9 @@ public class movil {
     public void imprimirDetalles(){
            System.out.println("Almacenamiento: " + almacenamiento + " Gb");
            System.out.println("Marca: " + marca);
+    }
+    
+    public void setCargador(Cargador cargador) {
+        this.cargador = cargador;
     }
 }

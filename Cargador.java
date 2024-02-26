@@ -3,7 +3,7 @@ public class Cargador
 {
     private String tipoDeConector;
     private int corrienteSuministrada;
-    private Cable clavija;
+    private Cable cable;
 
     public Cargador(String tipoDeConector, int corrienteSuministrada) {
         this.tipoDeConector = tipoDeConector;
@@ -18,6 +18,10 @@ public class Cargador
         return corrienteSuministrada;
     }
     
+    public Cable getCable() {
+        return cable;
+    }
+    
     public void setTipoDeConector(String newTipoDeConector) {
         tipoDeConector = newTipoDeConector;
     }
@@ -29,5 +33,9 @@ public class Cargador
     public void imprimirDetalles(){
            System.out.println("CorrienteSuministrada: " + corrienteSuministrada + " A ");
            System.out.println("Tipo de conector: " + tipoDeConector);
+    }
+    
+    public void setCable(Cable cable) {
+         this.cable = cable;
     }
 }
