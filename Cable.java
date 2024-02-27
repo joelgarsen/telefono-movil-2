@@ -1,5 +1,5 @@
 //Commit 6.1//
-public class Cable{
+public class Cable {
    private int longitud;
    private String tipoDeRecubrimiento;
    

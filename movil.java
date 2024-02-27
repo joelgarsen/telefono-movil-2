@@ -1,5 +1,5 @@
 //Commit 6.1//
-public class Movil{
+public class Movil  {
     private Cargador cargador;
     private int almacenamiento;
     private String marca;
