@@ -1,7 +1,7 @@
 //Commit 6.1//
 public class Cable {
-   public int longitud;
-   public String tipoDeRecubrimiento;
+   private int longitud;
+   private String tipoDeRecubrimiento;
    
    public Cable (int longitud, String tipoDeRecubrimiento){
        this.longitud = longitud;

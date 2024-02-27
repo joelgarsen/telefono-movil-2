@@ -1,13 +1,20 @@
 //Commit 6.1//
 public class Cargador{
-    public String tipoDeConector;
-    public int corrienteSuministrada;
-    public Cable cable;
-
+    private String tipoDeConector;
+    private int corrienteSuministrada;
+    private Cable cable;
     public Cargador(String tipoDeConector, int corrienteSuministrada, int longitud, String tipoDeRecubrimiento) {
         this.cable = new Cable (longitud, tipoDeRecubrimiento);
         this.tipoDeConector = tipoDeConector;
         this.corrienteSuministrada = corrienteSuministrada;
+    }
+    
+    public String getTipoRecubrimiento(){
+        return cable.getTipoDeRecubrimiento();
+    }
+    
+    public int getLongitudCable(){
+        return cable.getLongitud();
     }
     
     public String getTipoDeConector(){

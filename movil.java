@@ -1,8 +1,8 @@
 //Commit 6.1//
 public class Movil {
-    public Cargador cargador;
-    public int almacenamiento;
-    public String marca;
+    private Cargador cargador;
+    private int almacenamiento;
+    private String marca;
     
     public Movil (int almacenamiento, String marca, String tipoDeConector, int corrienteSuministrada, int longitud, String tipoDeRecubrimiento){
         this.cargador = new Cargador (tipoDeConector, corrienteSuministrada, longitud, tipoDeRecubrimiento);
@@ -33,10 +33,10 @@ public class Movil {
     public void imprimirDetalles(){
            System.out.println("Almacenamiento: " + almacenamiento + " Gb");
            System.out.println("Marca: " + marca);
-           System.out.println("Tipo de conector: " + cargador.tipoDeConector);
-           System.out.println("CorrienteSuministrada: " + cargador.corrienteSuministrada + " A ");
-           System.out.println("Longitud del cable: " + cargador.cable.longitud + "m");
-           System.out.println("Tipo de recubrimiento: " + cargador.cable.tipoDeRecubrimiento);
+           System.out.println("Tipo de conector: " + cargador.getTipoDeConector());
+           System.out.println("CorrienteSuministrada: " + cargador.getCorrienteSuministrada() + " A ");
+           System.out.println("Longitud del cable: " + cargador.getLongitudCable() + "m");
+           System.out.println("Tipo de recubrimiento: " + cargador.getTipoRecubrimiento());
     }
     
     public void setCargador(Cargador cargador) {
